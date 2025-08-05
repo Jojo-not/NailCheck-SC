@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Scan" parent="Theme.Material3.Light.NoActionBar">
+
+        <!-- Dark mode primary and secondary colors -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorOnBackground">@color/colorBackground</item>
+
+
+    </style>
+
+    <style name="PopupMenuStyle" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Change background color -->
+        <item name="android:popupBackground">@color/white</item>
+        <!-- Change text color -->
+        <item name="android:textColor">@color/dark_blue</item>
+    </style>
+</resources>

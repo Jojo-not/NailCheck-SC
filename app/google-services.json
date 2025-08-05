@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "455372257022",
+    "project_id": "nailckeckpg",
+    "storage_bucket": "nailckeckpg.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:455372257022:android:e7231e51e1223111efd7af",
+        "android_client_info": {
+          "package_name": "com.example.scan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClNnoxfWxRM56mpcy5QwZRioHhY4Da63Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

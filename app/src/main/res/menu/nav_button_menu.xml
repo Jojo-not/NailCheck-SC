@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Home"
+        android:icon="@drawable/iconhome"
+        android:title="Home" />
+    <item
+        android:id="@+id/folder"
+        android:icon="@drawable/folder"
+        android:title="Folder"/>
+    <item
+        android:id="@+id/scan"
+        android:icon="@drawable/scan"
+        android:title="Camera"/>
+    <item
+        android:id="@+id/gallery"
+        android:icon="@drawable/gallery"
+        android:title="Gallery"/>
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/medhis"
+        android:title="Medical History t"/>
+
+
+
+
+</menu>

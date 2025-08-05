@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.scan">
+
+    <uses-permission-sdk-23 android:name="android.hardware.camera.any" />
+    <uses-permission-sdk-23 android:name="android.permission.CAMERA" />
+    <uses-permission-sdk-23 android:name="android.permission.CAMERA2" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission-sdk-23 android:name="android.permission.INTERNET" />
+    <uses-permission-sdk-23 android:name="android.permission.READ_MEDIA_IMAGES" />
+
+    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+
+    <uses-permission-sdk-23 android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logov2"
+        android:label="Nail Check"
+        android:supportsRtl="true"
+        android:theme="@style/Base.Theme.Scan"
+        tools:targetApi="31">
+        <activity
+            android:name=".treatmentUpdate"
+            android:exported="false" />
+        <activity
+            android:name=".diagnosisUpdate"
+            android:exported="false" />
+        <activity
+            android:name=".remarks"
+            android:exported="false" />
+        <activity
+            android:name=".Details"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Info"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MedicalForm"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MedicalHistory"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PatientsInfo"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".camera"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".about_app"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".forgot_password"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".home"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".intro_page"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".sign_in"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".sign_up"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".spScreen"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
